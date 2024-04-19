@@ -33,37 +33,37 @@
 
 <body>
 
-  <header class="p-4 text-white" style="background-color: #186487;">
-    <div class="navbarnavbar-expand-md p-2 fixed-top " style="background-color: #186487;">
-      <div class="container">
-        <div class="d-flex flex-wrap text-start align-items-center justify-content-center justify-content-lg-start">
-          <a class="navbar-brand text-start " style="background-color: #186487;" href="#">
-            <img src="assets/img/logo_superior_esquerdo.svg" alt="" width="90.5rem">
+  <header class="p-4 text-white" style="background-color: #186487; width: 100%; position: fixed; top: 0; z-index: 1000;">
+    <div class="navbar navbar-expand-md p-2">
+      <div class="container-fluid">
+          <a class="navbar-brand text-start" href="#">
+            <img src="assets/img/logo_superior_esquerdo.svg" alt="" width="120.5rem">
           </a>
-
-          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="index.html" class="nav-link px-2 text-white">Início</a></li>
-            <li><a href="#about" class="nav-link px-2 text-white">Quem somos</a></li>
-            <li><a href="#apoio" class="nav-link px-2 text-white">Apoio</a></li>
-            <li><a href="#projetos" class="nav-link px-2 text-white">Projetos</a></li>
-            <li><a href="#footer" class="nav-link px-2 text-white">Contato</a></li>
-          </ul>
-          <div class="text-end">
-            <button type="button" class="btn text-light lg-2">Criar Conta</button>
-            <button type="button" class="btn btn-light me-2 lg-2">Entrar</button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="index.html" class="nav-link text-white">Início</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link text-white">Quem somos</a></li>
+              <li class="nav-item"><a href="#apoio" class="nav-link text-white">Apoio</a></li>
+              <li class="nav-item"><a href="#projetos" class="nav-link text-white">Projetos</a></li>
+              <li class="nav-item"><a href="#footer" class="nav-link text-white">Contato</a></li>
+            </ul>
           </div>
-        </div>
+          <div class="ms-auto">
+            <button type="button" class="btn btn-light me-2">Entrar</button>
+            <button type="button" class="btn btn-light">Criar Conta</button>
+          </div>      
       </div>
     </div>
   </header>
-
   <section style="background-color: #186487;" class="p-5">
     <div class="background-image" style="border-radius:50px">
-      <main class="container-fluid bg-transparent p-5  " style="border-radius:50px">
+      <main class="container-fluid bg-transparent p-5" style="border-radius:50px">
         <div class="row">
           <div class="col-md-4"></div>
-          <div class="col-md-4 offset-md-4"><img src="assets/img/logo_principal.png"
-              class="card-img-center d-block mx-auto mb-2 img-fluid" width="300" height="57"></div>
+          <div class="col-md-4 offset-md-4"><img src="assets/img/logo_principal.png" class="card-img-center d-block mx-auto mb-2 img-fluid" width="300" height="57"></div>
         </div>
         <div class="row">
           <div class="col-md-4 ">
@@ -74,14 +74,16 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4"><button type="button" class="btn text-light"
-              style="font-weight: bold; font-size: 2rem;border-radius:15px;  background-color: #186487;">Faça o Teste
-            </button></div>
+          <div class="col-md-4">
+            <button type="button" class="btn text-light" style="font-weight: bold; font-size: 2rem;border-radius:15px;  background-color: #186487;">
+              <span class="default-text">Faça o Teste</span>
+              <span class="hover-text" style="display:none;">Avalie seu grau de comprometimento com o hábito de apostar.</span>
+            </button>
+          </div>
         </div>
         <div class="row">
           <div class="col-md-4"></div>
-          <div class="col-md-4 offset-md-4"><img src="assets/img/porcetagem.png" class="card-img-start img-fluid"
-              width="620" height="67"></div>
+          <div class="col-md-4 offset-md-4"><img src="assets/img/porcetagem.png" class="card-img-start img-fluid" width="620" height="67"></div>
         </div>
         <div class="row">
           <div class="col-md-4"></div>
@@ -90,11 +92,9 @@
               Oferecemos suporte e apoio para pessoas e familiares que lutam com problemas relacionados ao jogo de apostas.</p>
           </div>
         </div>
-
       </main>
     </div>
   </section>
-
   <main id="main">
     <section id="about" class="about pt-0">
       <div class="container p-5" data-aos="fade-up">
@@ -297,7 +297,7 @@
           <div class="col-lg-13">
             <div class="row row-cols-1 row-cols-md-4 g-4">
               <div class="col">
-                <div class="card testimonial-item "
+                <div class="card testimonial-item h-100"
                   style="border-radius:15px; background-color: #F9FAFB; border: none; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
                   <img src="assets/img/testimonials/testimonials-4.jpg" class="card-img-center d-block mx-auto mb-2 "
                     style="background-color: #186487; border-radius:100%;  margin-top: 2rem;" width="72" height="57">
@@ -312,7 +312,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card "
+                <div class="card h-100"
                   style="border-radius:15px; background-color: #F9FAFB; border: none; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
                   <img src="assets/img/testimonials/testimonials-4.jpg" class="card-img-center d-block mx-auto mb-2"
                     style="background-color: #186487; border-radius:100%; margin-top: 2rem;" width="72" height="57">
@@ -325,7 +325,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card "
+                <div class="card h-100"
                   style="border-radius:15px; background-color: #F9FAFB; border: none; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
                   <img src="assets/img/testimonials/testimonials-4.jpg" class="card-img-center d-block mx-auto mb-2"
                     style="background-color: #186487;border-radius:100%;  margin-top: 2rem;" width="72" height="57">
@@ -337,7 +337,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card "
+                <div class="card h-100"
                   style="border-radius:15px; background-color: #F9FAFB; border: none; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
                   <img src="assets/img/testimonials/testimonials-4.jpg" class="card-img-center d-block mx-auto mb-2"
                     style="background-color: #186487; border-radius:100%; margin-top: 2rem;" width="72" height="57">
@@ -351,7 +351,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card "
+                <div class="card h-100"
                   style="border-radius:15px; background-color: #F9FAFB; border: none; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
                   <img src="assets/img/testimonials/testimonials-4.jpg" class="card-img-center d-block mx-auto mb-2"
                     style="background-color: #186487; border-radius:100%; margin-top: 2rem;" width="72" height="57">
@@ -363,7 +363,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card "
+                <div class="card h-100"
                   style="border-radius:15px; background-color: #F9FAFB; border: none; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
                   <img src="assets/img/testimonials/testimonials-4.jpg" class="card-img-center d-block mx-auto mb-2"
                     style="background-color: #186487; border-radius:100%; margin-top: 2rem;" width="72" height="57">
@@ -375,7 +375,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card "
+                <div class="card h-100"
                   style="border-radius:15px; background-color: #F9FAFB; border: none; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
                   <img src="assets/img/testimonials/testimonials-4.jpg" class="card-img-center d-block mx-auto mb-2"
                     style="background-color: #186487; border-radius:100%; margin-top: 2rem;" width="72" height="57">
@@ -388,7 +388,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card "
+                <div class="card h-100"
                   style="border-radius:15px; background-color: #F9FAFB; border: none; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
                   <img src="assets/img/testimonials/testimonials-4.jpg" class="card-img-center d-block mx-auto mb-2"
                     style="background-color: #186487; border-radius:100%; margin-top: 2rem;" width="72" height="57">

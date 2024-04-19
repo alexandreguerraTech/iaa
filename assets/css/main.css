@@ -2002,3 +2002,10 @@ section {
   align-items: center;
 }
 
+.btn:hover .default-text {
+  display: none;
+}
+
+.btn:hover .hover-text {
+  display: inline;
+}
