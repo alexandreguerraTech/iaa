@@ -2009,3 +2009,12 @@ section {
 .btn:hover .hover-text {
   display: inline;
 }
+
+.dobra_dois{
+  background-image: url('../img/dobrafoto2.jpg');
+  background-size: cover;
+  height: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
