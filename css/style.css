@@ -42,3 +42,6 @@
 }
 
 
+.footer{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1324' height='494' preserveAspectRatio='none' viewBox='0 0 1324 494'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1111%26quot%3b)' fill='none'%3e%3crect width='1324' height='494' x='0' y='0' fill='rgba(212%2c 232%2c 242%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c236 C 132.4%2c287.2 397.2%2c538.8 662%2c492 C 926.8%2c445.2 1191.6%2c100 1324%2c2L1324 494L0 494z' fill='rgba(159%2c 197%2c 217%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1111'%3e%3crect  fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
