@@ -1993,10 +1993,10 @@ section {
 }
 
 .background-image {
-  background-image: url('../img/foto_principal_fundo.png');
+  background-image: url('../img/foto_principal_fundo_versao2.png');
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 130vh;
   display: flex;
   justify-content: center;
   align-items: center;
